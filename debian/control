@@ -1,0 +1,16 @@
+Source: infgen
+Section: universe/utils
+Priority: extra
+Maintainer: Sergey Ponomarev <stokito@gmail.com>
+Homepage: https://github.com/stokito/infgen
+Vcs-Browser: https://github.com/stokito/infgen
+Vcs-Git: https://github.com/stokito/infgen.git
+Build-Depends: debhelper (>=10), cmake, pkg-config, zlib1g-dev
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
+
+Package: infgen
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: infgen gzip utility.
+ Disassembler of deflate, zlib, and gzip stream into a readable form.

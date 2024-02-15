@@ -1,2 +1,10 @@
 infgen
 .DS_Store
+cmake-build-debug
+cmake-build-default
+cmake-build-release
+/debian/infgen/
+/debian/debhelper-build-stamp
+/debian/.debhelper/generated/
+/debian/files
+/debian/infgen.substvars

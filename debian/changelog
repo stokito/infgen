@@ -1,0 +1,5 @@
+infgen (0.2.0) stable; urgency=medium
+
+  * debian package
+
+ -- Sergey Ponomarev <stokito@gmail.com>  Thu, 16 Feb 2024 01:00:00 +0200
